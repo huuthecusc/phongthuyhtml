@@ -291,6 +291,10 @@ body{
 	text-align: right;
 }
 
+.nearbot{
+	font-size: 13px;
+	width: 100%;
+}
 .tuvi .itembot{
 	width: 100%;
 	min-height: 20px;
@@ -316,7 +320,7 @@ body{
 }
 .tuvi .itembig{
 	width: 373px;
-	min-height: 481px;
+	min-height: 513px;
 	border-right: solid 1px #3C3C3B;
 	border-bottom: solid 1px #3C3C3B;
 	padding: 5px;
