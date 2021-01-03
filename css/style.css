@@ -49,6 +49,10 @@ img{max-width:100%;}
 
 .bgred{background-color: #dd0f0f;}
 .bgblue{background-color: #0f12dd;}
+.bgblue2{background-color: #2a4f86;}
+.bgbluebla{background-color: #0c2850;}
+.bgorgan{background-color: #ca982c;}
+.bggreen{background-color:#35aa1a}
 /*end reset*/
 body{
 	background: url('images/bg.jpg') repeat 0 0 transparent;
@@ -212,6 +216,17 @@ body{
 .boldertb td{
 	padding: 5px;
 }
+
+.tblborder{
+	width: 100%;
+}
+.tblborder td{
+	border-top: solid 1px #3C3C3B;
+	border-bottom: solid 1px #3C3C3B;
+	border-left: solid 1px #3C3C3B;
+	border-right: solid 1px #3C3C3B;
+	padding: 5px;
+}
 /* tu vi */
 .tuvi{
 	width: 100%;	
@@ -231,6 +246,7 @@ body{
 	border-bottom: solid 1px #3C3C3B;
 	border-right: solid 1px #3C3C3B;
 	padding: 5px;
+	position: relative;
 }
 .tuvi .bortop{
 	border-top: solid 1px #3C3C3B;
@@ -333,26 +349,45 @@ body{
 .tuvi .mgt{
 	margin-top: 5px;
 }
-.tuvi .triet{
-	background: #1560a4;
+/* Tuan triet*/
+.tuvi .ttitem{
     color: #fff;
-    font-size: 10px;
+    font-size: 9px;
     text-transform: uppercase;
-    padding: 2px 17px;
-    position: absolute;
-    top: -10px;
-    left: 161px;
-}
-.tuvi .tuan{
-	background: #909346;
-	color: #fff;
-	font-size: 10px;
-	text-transform: uppercase;
-	padding:2px 17px;
+    padding: 1px 15px;
 	position: absolute;
-	bottom: -7px;
+	z-index: 9;
+}
+.tuvi .tttopleft{
+    top: -9px;
+    left: 66px;
+}
+.tuvi .tttopcen{
+    top: -9px;
     left: 161px;
 }
+.tuvi .tttopright{
+    top: -9px;
+    left: 66px;
+}
+.tuvi .ttbotleft{    
+	bottom: -6px;
+    left: 66px;
+}
+.tuvi .ttbotcen{    
+	bottom: -6px;
+    left: 161px;
+}
+.tuvi .ttbotright{    
+	bottom: -6px;
+    left: 66px;
+}
+.tuvi .ttbotcen2{    
+	bottom: -6px;
+    left: 148px;
+}
+
+/* -------------- ------------- */
 .tuvi .active{
 	background: rgba(247, 229, 173, 0.3);
 }
@@ -649,6 +684,53 @@ body{
 .tblinnerright tr td:first-child table td{
 	padding-left: 3px;
 }
+
+/* tuan */
+.dichquai p{margin-top: 10px;}
+.dichquai ul{list-style: disc;}
+.dichquai ul li{ padding-left: 5px; margin-left: 25px;}
+.tbltuan{
+	width: 100%;
+}
+.tbltuan td{
+	position: relative;
+	height: 50px;
+	border-top: solid 1px #3C3C3B;
+	border-bottom: solid 1px #3C3C3B;
+	border-right: solid 1px #3C3C3B;
+	border-left: solid 1px #3C3C3B;
+}
+.tbltuan .inner{
+	text-transform: uppercase;
+	font-weight: bold;
+	vertical-align: middle;
+    padding: 5px;
+}
+.tbltuan .item{
+	background: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #94242e;
+	position: absolute;
+	border: solid 1px #909346;
+	padding: 7px;
+	z-index: 9;
+}
+.tbltuan .itembot{
+	bottom: -18px;
+    left: 23%;
+}
+.tbltuan .itemcen{
+	top: 31px;
+    left: 67%;
+    width: 100px;
+    text-align: center;
+}
+.tbltuan .itemtop{
+	top: -18px;
+	left: 23%;
+}
+	
 
 /*----footer----*/
 .footer{
