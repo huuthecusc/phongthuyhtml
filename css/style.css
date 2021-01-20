@@ -247,6 +247,7 @@ body{
 	border-right: solid 1px #3C3C3B;
 	padding: 5px;
 	position: relative;
+	min-height: 317px;
 }
 .tuvi .bortop{
 	border-top: solid 1px #3C3C3B;
@@ -296,8 +297,10 @@ body{
 	width: 100%;
 }
 .tuvi .itembot{
-	width: 100%;
+	width: 96%;
 	min-height: 20px;
+	position: absolute;
+    bottom: 5px;
 }
 .tuvi .itembot .col1{
 	float: left;
@@ -320,7 +323,7 @@ body{
 }
 .tuvi .itembig{
 	width: 373px;
-	min-height: 513px;
+	min-height: 645px;
 	border-right: solid 1px #3C3C3B;
 	border-bottom: solid 1px #3C3C3B;
 	padding: 5px;
